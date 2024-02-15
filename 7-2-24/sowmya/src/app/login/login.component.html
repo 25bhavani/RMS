@@ -1,0 +1,32 @@
+<!--<div *ngIf="!otpSent">-->
+<!--  <form [formGroup]="loginForm">-->
+<!--    <label for="mobileNumber">Enter Mobile Number:</label>-->
+<!--    <input type="text" id="mobileNumber" formControlName="mobileNumber" />-->
+<!--    <button type="button" (click)="sendOtp()">Send OTP</button>-->
+<!--  </form>-->
+<!--</div>-->
+
+<!--<div *ngIf="otpSent">-->
+<!--  <form [formGroup]="loginForm">-->
+<!--    <label for="otp">Enter OTP:</label>-->
+<!--    <input type="text" id="otp" formControlName="otp" />-->
+<!--    <button type="button" (click)="verifyOtp()">Verify OTP</button>-->
+<!--  </form>-->
+<!--</div>-->
+<!-- login.component.html -->
+<div *ngIf="!otpSent">
+  <form [formGroup]="mobileNumberForm">
+    <label for="mobileNumber">Enter Mobile Number:</label>
+    <input type="text" id="mobileNumber" formControlName="mobileNumber" />
+    <button type="button" (click)="sendOtp()">Send OTP</button>
+  </form>
+</div>
+
+<div *ngIf="otpSent">
+  <form [formGroup]="otpForm">
+    <label for="otp">Enter OTP:</label>
+    <input type="text" id="otp" formControlName="otp" />
+    <button type="button" (click)="verifyOtp()">Verify OTP</button>
+  </form>
+</div>
+

@@ -1,0 +1,97 @@
+.card.single-accordion {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #EFEFEF !important;
+  }
+  
+  .card.single-accordion .card-header {
+    background-color: #fff;
+    border: none;
+    padding: 0;
+  }
+  
+  .card.single-accordion:last-child {
+    margin-bottom: 0;
+  }
+  
+  .card.single-accordion .card-header h5 button {
+    color: #051922;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    text-decoration: none;
+    border: none;
+    background-color: #EFEFEF;
+    position: relative;
+    padding-left: 50px;
+    font-weight: 600;
+  }
+  
+  .card.single-accordion {
+    border: 1px solid #F9F9F9;
+  }
+  
+  .billing-address-form {
+    padding: 20px;
+  }
+  
+  .billing-address-form form p input {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 100%;
+    border-radius: 3px;
+  }
+  
+  .billing-address-form form p textarea {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    height: 120px;
+    resize: none;
+  }
+  
+  .shipping-address-form p, .card-details p {
+    margin: 0;
+  }
+  
+  .card.single-accordion .card-header h5 button:before {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    line-height: 22px;
+    margin-top: -11px;
+    color: #F28123;
+  }
+  
+  .billing-address-form form p:last-child {
+    margin-bottom: 0;
+  }
+  
+  table.order-details {
+    border: 1px solid #efefef;
+  }
+  
+  table.order-details thead tr th {
+    background-color: #efefef;
+    padding: 18px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  table.order-details tbody td {
+    border: 1px solid #efefef;
+    padding: 15px;
+  }
+  
+  .order-details-wrap > a {
+    margin-top: 30px;
+  }
+  
+  .card.single-accordion {
+    border: 1px solid #eeeeee;
+  }
